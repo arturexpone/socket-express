@@ -9,7 +9,7 @@ const AllMessages = mongoose.AllMessages();
 
 mongoose.connect();
 
-const PORT = 8888;
+const PORT = 3000;
 
 app.get('/port', (req, res) => { res.end(`port: ${PORT}`)});
 
